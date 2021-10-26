@@ -1,3 +1,4 @@
+<$php
 $myfile = fopen("list.csv", "r") or die("Unable to open file!");
 
 //echo fread($myfile,filesize("list.csv"));
@@ -36,3 +37,4 @@ foreach ($csv as $i => $row)
     //echo " <strong>State: </strong> " . $state;
     //echo " <strong>City: </strong>" . $city . "<br>";
 }
+?>
